@@ -8,7 +8,7 @@ public interface SimpleList<T> {
 
     public void insertAtHead(T element);
 
-    public void insertAt(T element, int index);
+    public void insertAt(int index,T element);
 
     public T removeAtTail();
     public T removeAtHead();

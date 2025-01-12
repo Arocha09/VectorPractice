@@ -96,7 +96,7 @@ public class Vector<T> implements SimpleList<T> {
     }
 
     @Override
-    public void insertAt(T element, int index) {
+    public void insertAt(int index, T element) {
         if (index < size+1) {
             if(size==itemArray.length){
                 resize(itemArray.length +1);
